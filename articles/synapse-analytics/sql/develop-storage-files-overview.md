@@ -90,7 +90,7 @@ CREATE EXTERNAL DATA SOURCE MyAzureInvoices
  CREDENTIAL = AccessAzureInvoices) ;
 ```
 
-Caller must have one of the following permissions to execute OPENROWSET function:
+Caller must have the following permissions to execute OPENROWSET function:
 
 - One of the permissions to execute OPENROWSET:
   - `ADMINISTER BULK OPERATIONS` enables login to execute OPENROWSET function.
